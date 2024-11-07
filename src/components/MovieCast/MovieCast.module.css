@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  padding: 0px 50px;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  gap: 8px;
+  text-align: center;
+  justify-content: center;
+}
+
+.img {
+  width: 150px;
+  height: 220px;
+}
+
+.name {
+  max-width: 150px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.role {
+  font-size: 14px;
+}

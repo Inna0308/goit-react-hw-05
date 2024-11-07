@@ -1,0 +1,27 @@
+.movie {
+  display: flex;
+  padding: 50px;
+  height: 500px;
+
+  color: #333333;
+}
+
+.img {
+  width: 350px;
+  margin-right: 50px;
+}
+
+.descr {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mainTitle {
+  font-size: 50px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}

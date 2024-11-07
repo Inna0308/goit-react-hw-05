@@ -1,0 +1,22 @@
+.comment {
+  padding: 0px 50px 50px 50px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.commentText {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.noReviews {
+  font-size: 18px;
+  color: #333333;
+}

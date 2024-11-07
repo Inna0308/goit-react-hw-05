@@ -1,0 +1,24 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ff6b6b;
+}
+
+.message {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.link {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

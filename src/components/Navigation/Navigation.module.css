@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  gap: 26px;
+  padding: 20px 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #ffb400;
+}
+
+.active {
+  color: #ffb400;
+  text-decoration: underline;
+}

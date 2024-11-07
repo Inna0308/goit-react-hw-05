@@ -1,0 +1,37 @@
+.details {
+  display: flex;
+  gap: 20px;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+
+.link {
+  background-color: #ffb400;
+  color: #ffffff;
+  font-size: 26px;
+  border-radius: 50px;
+  text-decoration: none;
+  width: 120px;
+  text-align: center;
+}
+
+.link:hover {
+  background-color: transparent;
+  color: #ffb400;
+  border: 1px solid #ffb400;
+}
+
+.btn {
+  margin-left: 50px;
+  margin-top: 50px;
+  border: none;
+  background-color: #4e90f0;
+  height: 35px;
+  color: #ffffff;
+  font-size: 26px;
+  border-radius: 50px;
+  text-decoration: none;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
