@@ -8,7 +8,7 @@ import toast from "react-hot-toast";
 import styles from "./MovieReviews.module.css";
 
 const MovieReviews = () => {
-  const [reviews, setReview] = useState(null);
+  const [reviews, setReviews] = useState([]);
 
   const { movieId } = useParams();
 
@@ -19,7 +19,7 @@ const MovieReviews = () => {
       try {
         const data = await getMovieReview(movieId);
         console.log(data);
-        setReview(data.slice(0, 8));
+        setReviews(data);
       } catch (error) {
         console.log(error.message);
         toast.error("Error");
